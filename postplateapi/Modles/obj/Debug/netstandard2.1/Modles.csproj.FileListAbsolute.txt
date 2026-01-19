@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\postplate\postplateapi\Modles\bin\Debug\netstandard2.1\Modles.deps.json
+C:\Users\user\Desktop\postplate\postplateapi\Modles\bin\Debug\netstandard2.1\Modles.dll
+C:\Users\user\Desktop\postplate\postplateapi\Modles\bin\Debug\netstandard2.1\Modles.pdb
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.AssemblyInfo.cs
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.dll
+C:\Users\user\Desktop\postplate\postplateapi\Modles\obj\Debug\netstandard2.1\Modles.pdb

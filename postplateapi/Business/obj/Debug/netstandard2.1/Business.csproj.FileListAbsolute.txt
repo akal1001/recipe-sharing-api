@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\postplate\postplateapi\Business\bin\Debug\netstandard2.1\Business.deps.json
+C:\Users\user\Desktop\postplate\postplateapi\Business\bin\Debug\netstandard2.1\Business.dll
+C:\Users\user\Desktop\postplate\postplateapi\Business\bin\Debug\netstandard2.1\Business.pdb
+C:\Users\user\Desktop\postplate\postplateapi\Business\bin\Debug\netstandard2.1\Modles.dll
+C:\Users\user\Desktop\postplate\postplateapi\Business\bin\Debug\netstandard2.1\Modles.pdb
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.dll
+C:\Users\user\Desktop\postplate\postplateapi\Business\obj\Debug\netstandard2.1\Business.pdb

@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\bin\Debug\netstandard2.1\EncryptionHelper.deps.json
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\bin\Debug\netstandard2.1\EncryptionHelper.dll
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\bin\Debug\netstandard2.1\EncryptionHelper.pdb
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.AssemblyInfo.cs
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.dll
+C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\obj\Debug\netstandard2.1\EncryptionHelper.pdb

@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System.Text;
+using System.Text.Json;
 
 namespace postplateapi.OpenAiManagers
 {
@@ -89,6 +90,7 @@ namespace postplateapi.OpenAiManagers
             }
 
         }
+        
         public async Task<string> GenerateImageAsync(string prompt)
         {
             try
@@ -112,7 +114,7 @@ namespace postplateapi.OpenAiManagers
 
                 if (!response.IsSuccessStatusCode)
                 {
-                    throw new Exception($"Image generation failed: {response.StatusCode} - {responseContent}");
+                    throw new Exception($"Image generation failed: {response.StatusCode} - {responseContent}" + response.RequestMessage + " ");
                 }
 
                 // Optional: define a small response model
@@ -128,6 +130,47 @@ namespace postplateapi.OpenAiManagers
             }
         
         }
+       
+        public async Task<bool> IsFoodRelatedRequestAsync(string userInput)
+        {
+            string analysisPrompt =
+                "Evaluate whether the following user input is a valid request for a food dish or recipe.\n" +
+                "Ignore general phrases like 'give me', 'based on', 'a tasty dish'. Focus on extracting:\n\n" +
+                "1. Up to 10 **real edible food items** or ingredients mentioned\n" +
+                "2. A **core summary** of what the user is asking for (like 'a quick lunch', 'healthy dinner')\n\n" +
+                "Respond only in the following JSON format:\n\n" +
+                "{\n" +
+                "  \"isFoodRelated\": true or false,\n" +
+                "  \"recognizedFoodItems\": [\"food1\", \"food2\", ...],\n" +
+                "  \"coreRequest\": \"summary of user intent\"\n" +
+                "}\n\n" +
+                $"Input: \"{userInput}\"";
+
+            var response = await GetChatCompletionAsync(analysisPrompt);
+
+            if (response?.choices == null || response.choices.Length == 0 || string.IsNullOrWhiteSpace(response.choices[0].message?.content))
+            {
+                return false;
+            }
+
+            try
+            {
+                var json = JsonDocument.Parse(response.choices[0].message.content);
+                return json.RootElement.GetProperty("isFoodRelated").GetBoolean();
+            }
+            catch (System.Text.Json.JsonException ex)
+            {
+                // Optionally log ex.Message or ex.ToString()
+                return false;
+            }
+            catch (Exception ex)
+            {
+                // Optionally log ex.Message or ex.ToString()
+                return false;
+            }
+
+        }
+
 
 
     }

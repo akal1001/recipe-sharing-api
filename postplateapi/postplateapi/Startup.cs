@@ -1,3 +1,8 @@
+using BusinessLogicLayer;
+using DataAccessLayer;
+using postplateapi.OpenAiManagers;
+using postplateapi.UnsplashManager;
+
 namespace postplateapi;
 
 public class Startup
@@ -13,6 +18,16 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
+        services.AddCors(); // <-- ADD THIS
+        services.AddScoped<PostPlateManager>();
+        services.AddScoped<PostPlatesDataAccess>();
+        services.AddScoped<IngredientPropertyDataAccess>();
+        services.AddScoped<InsertHealthProfileDataAccess>();
+        services.AddScoped<ConnictionString>();
+        services.AddScoped<OpenAiManager>();
+        services.AddHttpClient<UnsplashService>();
+        services.AddScoped<EncryptionHelper.EncryptionHelper>();
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -20,11 +35,9 @@ public class Startup
     {
 
         string[] allowedDomains = {
-                "https://sostshi.com",
-                "https://betnow-32807.web.app",
                 "http://localhost:4200",
                 "http://localhost:57749",
-                "http://localhost:5001"
+                "https://postplate-6fc40.web.app"
             };
 
         if (env.IsDevelopment())
@@ -39,10 +52,9 @@ public class Startup
                    .AllowAnyMethod()
         );
 
-        if (env.IsDevelopment())
-        {
-            app.UseDeveloperExceptionPage();
-        }
+      //  app.UseMiddleware<ApiKeyMiddleware>();
+
+       
 
         app.UseHttpsRedirection();
 

@@ -1,30 +1,81 @@
 {
   "version": 2,
-  "dgSpecHash": "s5W/yPphkyilU+oxRU+bkQaFnnu5CC3znIHS66xWcmzXEfiWjI5t4u3/y37G4wO0hfDcay/Vw5c65DFlRh/NsQ==",
-  "success": true,
+  "dgSpecHash": "Mp/bCnvRZP64JsC+XyebhMSe/cbGmPQeKs2sm0ss24rqe4hm+KKCABbktqU/+Ws3L/tt8ijaB0mQBJH4IxdjCA==",
+  "success": false,
   "projectFilePath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\postplateapi\\postplateapi.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\8.1.1\\amazon.lambda.aspnetcoreserver.8.1.1.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\amazon.lambda.core\\2.2.0\\amazon.lambda.core.2.2.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.0\\amazon.lambda.serialization.systemtextjson.2.4.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\2.1.0\\microsoft.extensions.logging.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.0\\microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\2.1.0\\microsoft.extensions.options.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.13\\microsoft.netcore.app.crossgen2.win-x64.6.0.13.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.13\\microsoft.aspnetcore.app.runtime.win-x64.6.0.13.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.13.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.13\\microsoft.netcore.app.runtime.win-x64.6.0.13.nupkg.sha512"
-  ],
-  "logs": []
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project EncryptionHelper is not compatible with net60 (.NETFramework,Version=v6.0). Project EncryptionHelper supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "EncryptionHelper",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project BusinessLogicLayer is not compatible with net60 (.NETFramework,Version=v6.0). Project BusinessLogicLayer supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "BusinessLogicLayer",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Modles is not compatible with net60 (.NETFramework,Version=v6.0). Project Modles supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Modles",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataAccessLayer is not compatible with net60 (.NETFramework,Version=v6.0). Project DataAccessLayer supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataAccessLayer",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project EncryptionHelper is not compatible with net60 (.NETFramework,Version=v6.0) / win7-x86. Project EncryptionHelper supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "EncryptionHelper",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project BusinessLogicLayer is not compatible with net60 (.NETFramework,Version=v6.0) / win7-x86. Project BusinessLogicLayer supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "BusinessLogicLayer",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Modles is not compatible with net60 (.NETFramework,Version=v6.0) / win7-x86. Project Modles supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Modles",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DataAccessLayer is not compatible with net60 (.NETFramework,Version=v6.0) / win7-x86. Project DataAccessLayer supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "DataAccessLayer",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0/win7-x86"
+      ]
+    }
+  ]
 }

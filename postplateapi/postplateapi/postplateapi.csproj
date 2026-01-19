@@ -12,7 +12,13 @@
     <PublishReadyToRun>true</PublishReadyToRun>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="8.1.1" />
+    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="9.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EncryptionHelper\EncryptionHelper.csproj" />
+    <ProjectReference Include="..\Modles\Modles.csproj" />
   </ItemGroup>
 </Project>
