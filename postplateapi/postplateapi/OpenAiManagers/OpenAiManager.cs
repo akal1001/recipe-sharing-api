@@ -31,13 +31,11 @@ namespace postplateapi.OpenAiManagers
 
         public OpenAiManager()  
         {
-            AwsAccessKeyId = "AKIA4O3HLAEQGKNC275K";
-            AwsSecretAccessKey = "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";
+            AwsAccessKeyId = "xxxx";
+            AwsSecretAccessKey = "xxxxx";
             BucketName = "sm-image-bucket";
-            //OpenAiApiKey = "sk-proj-GcdptAmxM6uP0JEzHTzcT3BlbkFJHibdgM2UxGVEtKBDLD62";
-            //OpenAiApiKey = "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";
-
-            OpenAiApiKey = "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";
+           
+            OpenAiApiKey = "xxxxx";
 
         }
 
