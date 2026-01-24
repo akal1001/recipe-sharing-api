@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = Modles
-build_property.ProjectDir = C:\Users\user\Desktop\postplate\postplateapi\Modles\
+build_property.ProjectDir = C:\Users\user\Desktop\recipe-sharing-api\postplateapi\Modles\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

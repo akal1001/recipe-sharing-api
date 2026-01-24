@@ -485,11 +485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\Modles\\Modles.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\Modles\\Modles.csproj",
       "projectName": "Modles",
-      "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\Modles\\Modles.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\Modles\\Modles.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\Modles\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\Modles\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

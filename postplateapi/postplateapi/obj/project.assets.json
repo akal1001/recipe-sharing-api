@@ -75,11 +75,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\postplateapi\\postplateapi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\postplateapi\\postplateapi.csproj",
       "projectName": "postplateapi",
-      "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\postplateapi\\postplateapi.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\postplateapi\\postplateapi.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\postplateapi\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\postplateapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,17 +100,17 @@
         "net60": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             },
-            "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj"
+            "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj"
             },
-            "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\Modles\\Modles.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\Modles\\Modles.csproj"
+            "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\Modles\\Modles.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\Modles\\Modles.csproj"
             }
           }
         }

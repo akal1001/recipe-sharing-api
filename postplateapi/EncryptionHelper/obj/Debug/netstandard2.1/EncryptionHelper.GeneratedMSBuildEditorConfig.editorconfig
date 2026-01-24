@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = EncryptionHelper
-build_property.ProjectDir = C:\Users\user\Desktop\postplate\postplateapi\EncryptionHelper\
+build_property.ProjectDir = C:\Users\user\Desktop\recipe-sharing-api\postplateapi\EncryptionHelper\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

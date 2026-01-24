@@ -77,11 +77,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj",
       "projectName": "EncryptionHelper",
-      "projectPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\EncryptionHelper\\EncryptionHelper.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\EncryptionHelper\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\EncryptionHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

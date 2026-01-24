@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mp/bCnvRZP64JsC+XyebhMSe/cbGmPQeKs2sm0ss24rqe4hm+KKCABbktqU/+Ws3L/tt8ijaB0mQBJH4IxdjCA==",
+  "dgSpecHash": "HwFHvuCih/UF5Vmwb42lsxrqAyo/+Noq1pcaJgi0PwscM/OZK+p1nO8sDwkOEYZKRDNj7ublLC5pk2SzBMCrJw==",
   "success": false,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\postplate\\postplateapi\\postplateapi\\postplateapi.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\recipe-sharing-api\\postplateapi\\postplateapi\\postplateapi.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
